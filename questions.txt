@@ -1,0 +1,17 @@
+¬(A>>B):DNF
+P>>(¬Q∨R): DNF
+¬(P&¬Q∨R): DNF
+P>>(Q>>C):DNF
+P<>(~Q∨R): DNF
+(P>>Q)<>(Q>>P):DNF
+¬(A∨B): DNF
+(A∧B): DNF
+¬(¬p∧¬q):AON
+(A∧B)∨C: AON
+(p ∨ q) ∧ (¬¬p ∨ r):AON
+(p ∨ q) ∧ (p ∨ r):AON
+¬(p → ¬(q ∧ r ∧ s)):AON
+p ∨ (p ∧ q):AON
+p ∨ (p ∧ q ∧ r  ∧  s  ∧ t  ∧ u):AON
+p ∨ (p ∧ q) ∨ (¬p → q):AON
+p ∨ (p ∧ q) ∨  (¬¬p):AON
